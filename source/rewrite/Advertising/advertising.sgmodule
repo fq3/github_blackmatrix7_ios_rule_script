@@ -10,6 +10,8 @@
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/banner - reject
 # 嘀嗒出行开屏广告
 ^https?:\/\/capis-1\.didapinche\.com\/ad\/cx\/startup\? - reject
+# 美团外卖更新检查
+^https?:\/\/apimobile\.meituan\.com\/appupdate\/mach\/checkUpdate? - reject
 
 [MITM]
-hostname = %APPEND% res.xiaojukeji.com,ct.xiaojukeji.com,haojia.m.smzdm.com,capis-1.didapinche.com
+hostname = %APPEND% res.xiaojukeji.com,ct.xiaojukeji.com,haojia.m.smzdm.com,capis-1.didapinche.com,apimobile.meituan.com
